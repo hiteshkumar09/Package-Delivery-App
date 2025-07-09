@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:packagedeliveryapp/pages/onboarding.dart';
 // import 'package:packagedeliveryapp/pages/onboarding.dart';
-import 'package:packagedeliveryapp/pages/post.dart';
 
 // import 'package:packagedeliveryapp/pages/post.dart';
 
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Post(),
+      home: const Onboarding(),
     );
   }
 }
